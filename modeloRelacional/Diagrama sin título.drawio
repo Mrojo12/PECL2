@@ -1,0 +1,128 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="zfuHpxwTIC43XBrHW22D">
+    <mxGraphModel dx="989" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wJQQdYX0EMPFhK5yZbxY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="172.5" as="sourcePoint" />
+            <mxPoint x="650" y="137.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="173" />
+              <mxPoint x="300" y="210" />
+              <mxPoint x="590" y="210" />
+              <mxPoint x="590" y="138" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wJQQdYX0EMPFhK5yZbxY-1" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Disco&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Año_Publicación&lt;br&gt;Título_Disco&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;FK1&lt;/td&gt;&lt;td&gt;&lt;br&gt;Nom_Usuario&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;Atributos&lt;/td&gt;&lt;td&gt;&lt;br&gt;URL_Portada&lt;br&gt;Géneros&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="110" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wJQQdYX0EMPFhK5yZbxY-2" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;GeneroDsc&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;Año_Publicación&lt;br&gt;Título_Disco&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;Atributos&lt;/td&gt;&lt;td&gt;&lt;br&gt;Géneros&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="950" y="110" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wJQQdYX0EMPFhK5yZbxY-3" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Usuario&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Nom_Usuario&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Atributos&lt;/td&gt;&lt;td&gt;&lt;br&gt;Nombre&amp;nbsp;&lt;br&gt;Password&lt;br&gt;Email&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="650" y="110" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wJQQdYX0EMPFhK5yZbxY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wJQQdYX0EMPFhK5yZbxY-4" target="wJQQdYX0EMPFhK5yZbxY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wJQQdYX0EMPFhK5yZbxY-4" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Canción&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Título_Cación&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;FK1&lt;/td&gt;&lt;td&gt;&lt;br&gt;Año_Publicación&lt;br&gt;Título_Disco&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;Atributos&lt;/td&gt;&lt;td&gt;&lt;br&gt;Duración&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="170" y="370" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wJQQdYX0EMPFhK5yZbxY-5" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Edición&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Formato&lt;br&gt;Año_Edición&lt;br&gt;País&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;FK1&lt;/td&gt;&lt;td&gt;&lt;br&gt;Año_Publicación&lt;br&gt;Título_Disco&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="470" y="370" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wJQQdYX0EMPFhK5yZbxY-6" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Grupo&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Nom_Grupo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;Atributos&lt;/td&gt;&lt;td&gt;&lt;br&gt;URL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="110" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wJQQdYX0EMPFhK5yZbxY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.002;exitY=0.403;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0.005;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="wJQQdYX0EMPFhK5yZbxY-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90.87999999999997" y="160" as="targetPoint" />
+            <mxPoint x="769.98" y="388.81" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="720" y="406" />
+              <mxPoint x="720" y="510" />
+              <mxPoint x="70" y="510" />
+              <mxPoint x="70" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wJQQdYX0EMPFhK5yZbxY-7" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Desea&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;Año_Publicación&lt;br&gt;Título_Disco&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;FK2&lt;/td&gt;&lt;td&gt;&lt;br&gt;Nom_Usuario&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="770" y="370" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wJQQdYX0EMPFhK5yZbxY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.002;exitY=0.703;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0.007;entryY=0.298;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="wJQQdYX0EMPFhK5yZbxY-8" target="wJQQdYX0EMPFhK5yZbxY-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="497" />
+              <mxPoint x="1020" y="560" />
+              <mxPoint x="20" y="560" />
+              <mxPoint x="20" y="149" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wJQQdYX0EMPFhK5yZbxY-8" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Dispone&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;Nom_Usuario&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;FK2&lt;/td&gt;&lt;td&gt;&lt;br&gt;Formato&lt;br&gt;Año_Edición&lt;br&gt;País&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;FK3&lt;/td&gt;&lt;td&gt;&lt;br&gt;Año_Publicación&lt;br&gt;Título_Disco&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Atributos&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&amp;nbsp;&lt;/span&gt;Estado&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="370" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="wJQQdYX0EMPFhK5yZbxY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.003;exitY=0.798;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;endArrow=classic;endFill=1;exitPerimeter=0;entryX=-0.006;entryY=0.317;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="89.46000000000002" y="151.20999999999998" as="targetPoint" />
+            <mxPoint x="470.00000000000006" y="465.76" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="451" y="466" />
+              <mxPoint x="451" y="550" />
+              <mxPoint x="30" y="550" />
+              <mxPoint x="30" y="151" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wJQQdYX0EMPFhK5yZbxY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.382;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.189;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;exitPerimeter=0;" edge="1" parent="1" source="wJQQdYX0EMPFhK5yZbxY-2" target="wJQQdYX0EMPFhK5yZbxY-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="144" />
+              <mxPoint x="900" y="90" />
+              <mxPoint x="70" y="90" />
+              <mxPoint x="70" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wJQQdYX0EMPFhK5yZbxY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.157;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650.3599999999999" y="140" as="sourcePoint" />
+            <mxPoint x="1089.6399999999999" y="403.26" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630.36" y="140" />
+              <mxPoint x="630.36" y="285" />
+              <mxPoint x="1030.36" y="285" />
+              <mxPoint x="1030.36" y="403" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wJQQdYX0EMPFhK5yZbxY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.415;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" target="wJQQdYX0EMPFhK5yZbxY-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="471.8" y="410" as="sourcePoint" />
+            <mxPoint x="1090" y="452.72" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="452" y="410" />
+              <mxPoint x="452" y="330" />
+              <mxPoint x="982" y="330" />
+              <mxPoint x="982" y="445" />
+              <mxPoint x="1089" y="445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wJQQdYX0EMPFhK5yZbxY-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.345;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wJQQdYX0EMPFhK5yZbxY-7" target="wJQQdYX0EMPFhK5yZbxY-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="438" />
+              <mxPoint x="680" y="310" />
+              <mxPoint x="610" y="310" />
+              <mxPoint x="610" y="145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
