@@ -72,15 +72,10 @@ SET search_path='PL2_temp';
 -- Cargamos los datos en las tablas 
 
 \copy PL2_temp.canciones_temp FROM './datos/canciones.csv' WITH (FORMAT csv, HEADER, DELIMITER ';', NULL 'NULL', ENCODING 'UTF-8');
-
 \copy PL2_temp.discos_temp FROM './datos/discos.csv' WITH (FORMAT csv, HEADER, DELIMITER ';', NULL 'NULL', ENCODING 'UTF-8');
-
 \copy PL2_temp.ediciones_temp FROM './datos/ediciones.csv' WITH (FORMAT csv, HEADER, DELIMITER ';', NULL 'NULL', ENCODING 'UTF-8');
-
 \copy PL2_temp.usuario_desea_disco_temp FROM './datos/usuario_desea_disco.csv' WITH (FORMAT csv, HEADER, DELIMITER ';', NULL 'NULL', ENCODING 'UTF-8');
-
 \copy PL2_temp.usuario_tiene_edición_temp FROM './datos/usuario_tiene_edicion.csv' WITH (FORMAT csv, HEADER, DELIMITER ';', NULL 'NULL', ENCODING 'UTF-8');
-
 \copy PL2_temp.usuarios_temp FROM './datos/usuarios.csv' WITH (FORMAT csv, HEADER, DELIMITER ';', NULL 'NULL', ENCODING 'UTF-8');
 
 \echo 'Creando esquema final'
